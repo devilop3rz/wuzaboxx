@@ -1,20 +1,25 @@
 
 WuzaBoxx
 =================================
-
-### Installation
-Benötigte Dateien einbinden
-
-    js/wuzabox.js  
-    css/wuzabox.css
+A lightbox module that supports images, videos, and galleries.
 
 
-### Nuztung
+How to use
+----
+To get started, download the plugin, unzip it and copy files to your website directory. Load files in the section of your HTML document.
 
-Funktion auf gewünschter Seite ausführen und CSS-Selektor als Parameter übergeben.
+    <head>
+        <link rel="stylesheet" href="/wuzaboxx/css/wuzaboxx.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="/wuzaboxx/js/wuzaboxx.js"></script>
+    </head>
     
-    <div>
-        <img src="*" class="enlarge">
-    </div>
-    
-    wuzaBox.gallery(enlarge);
+Initialise the script like this:
+
+    wuzaBox.gallery([selector]);
+
+
+
+Copyright and license
+----
+
+Code released under [the MIT license](https://github.com/ashleydw/lightbox/blob/master/LICENSE).
