@@ -11,6 +11,10 @@ Benötigte Dateien einbinden
 
 ### Nuztung
 
-Funktion auf gewünschter Seite ausführen und CSS-Selektor als Parameter übergeben
-
-    wuzaBox.gallery([selector]);
+Funktion auf gewünschter Seite ausführen und CSS-Selektor als Parameter übergeben.
+    
+    <div>
+        <img src="*" class="enlarge">
+    </div>
+    
+    wuzaBox.gallery(enlarge);
