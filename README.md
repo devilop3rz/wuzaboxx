@@ -13,6 +13,9 @@ To get started, download the plugin, unzip it and copy files to your website dir
         <script type="text/javascript" src="/wuzaboxx/js/wuzaboxx.js"></script>
     </head>
     
+Create your images and add the data-attribute "highres":
+    <img src="" class="" data-highres="[high-resolution-image-source]">
+
 Initialise the script like this:
 
     wuzaBox.gallery([selector]);
