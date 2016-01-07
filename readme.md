@@ -3,7 +3,7 @@ WuzaBoxx
 =================================
 
 ### Installation
-Benötigte Datein einbinden
+Benötigte Dateien einbinden
 
     js/wuzabox.js  
     css/wuzabox.css
